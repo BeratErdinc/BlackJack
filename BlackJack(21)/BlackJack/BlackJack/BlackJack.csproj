@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23AA06F7-C30A-4FE3-BD08-E5DD18564514}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BlackJack</RootNamespace>
+    <AssemblyName>BlackJack</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kart.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="bin\Debug\BlackJack.exe.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="10C.png" />
+    <Content Include="10D.png" />
+    <Content Include="10H.png" />
+    <Content Include="10S.png" />
+    <Content Include="2C.png" />
+    <Content Include="2D.png" />
+    <Content Include="2H.png" />
+    <Content Include="2S.png" />
+    <Content Include="3C.png" />
+    <Content Include="3D.png" />
+    <Content Include="3H.png" />
+    <Content Include="3S.png" />
+    <Content Include="4C.png" />
+    <Content Include="4D.png" />
+    <Content Include="4H.png" />
+    <Content Include="4S.png" />
+    <Content Include="5C.png" />
+    <Content Include="5D.png" />
+    <Content Include="5H.png" />
+    <Content Include="5S.png" />
+    <Content Include="6C.png" />
+    <Content Include="6D.png" />
+    <Content Include="6H.png" />
+    <Content Include="6S.png" />
+    <Content Include="7C.png" />
+    <Content Include="7D.png" />
+    <Content Include="7H.png" />
+    <Content Include="7S.png" />
+    <Content Include="8C.png" />
+    <Content Include="8D.png" />
+    <Content Include="8H.png" />
+    <Content Include="8S.png" />
+    <Content Include="9C.png" />
+    <Content Include="9D.png" />
+    <Content Include="9H.png" />
+    <Content Include="9S.png" />
+    <Content Include="AC.png" />
+    <Content Include="AD.png" />
+    <Content Include="AH.png" />
+    <Content Include="AS.png" />
+    <Content Include="b1fv.png" />
+    <Content Include="bin\Debug\BlackJack.exe" />
+    <Content Include="bin\Debug\BlackJack.pdb" />
+    <Content Include="bin\Release\10C.png" />
+    <Content Include="bin\Release\10D.png" />
+    <Content Include="bin\Release\10H.png" />
+    <Content Include="bin\Release\10S.png" />
+    <Content Include="bin\Release\2C.png" />
+    <Content Include="bin\Release\2D.png" />
+    <Content Include="bin\Release\2H.png" />
+    <Content Include="bin\Release\2S.png" />
+    <Content Include="bin\Release\3C.png" />
+    <Content Include="bin\Release\3D.png" />
+    <Content Include="bin\Release\3H.png" />
+    <Content Include="bin\Release\3S.png" />
+    <Content Include="bin\Release\4C.png" />
+    <Content Include="bin\Release\4D.png" />
+    <Content Include="bin\Release\4H.png" />
+    <Content Include="bin\Release\4S.png" />
+    <Content Include="bin\Release\5C.png" />
+    <Content Include="bin\Release\5D.png" />
+    <Content Include="bin\Release\5H.png" />
+    <Content Include="bin\Release\5S.png" />
+    <Content Include="bin\Release\6C.png" />
+    <Content Include="bin\Release\6D.png" />
+    <Content Include="bin\Release\6H.png" />
+    <Content Include="bin\Release\6S.png" />
+    <Content Include="bin\Release\7C.png" />
+    <Content Include="bin\Release\7D.png" />
+    <Content Include="bin\Release\7H.png" />
+    <Content Include="bin\Release\7S.png" />
+    <Content Include="bin\Release\8C.png" />
+    <Content Include="bin\Release\8D.png" />
+    <Content Include="bin\Release\8H.png" />
+    <Content Include="bin\Release\8S.png" />
+    <Content Include="bin\Release\9C.png" />
+    <Content Include="bin\Release\9D.png" />
+    <Content Include="bin\Release\9H.png" />
+    <Content Include="bin\Release\9S.png" />
+    <Content Include="bin\Release\AC.png" />
+    <Content Include="bin\Release\AD.png" />
+    <Content Include="bin\Release\AH.png" />
+    <Content Include="bin\Release\AS.png" />
+    <Content Include="bin\Release\b1fv.png" />
+    <Content Include="bin\Release\JC.png" />
+    <Content Include="bin\Release\JD.png" />
+    <Content Include="bin\Release\JH.png" />
+    <Content Include="bin\Release\JS.png" />
+    <Content Include="bin\Release\KC.png" />
+    <Content Include="bin\Release\KD.png" />
+    <Content Include="bin\Release\KH.png" />
+    <Content Include="bin\Release\KS.png" />
+    <Content Include="bin\Release\QC.png" />
+    <Content Include="bin\Release\QD.png" />
+    <Content Include="bin\Release\QH.png" />
+    <Content Include="bin\Release\QS.png" />
+    <Content Include="JC.png" />
+    <Content Include="JD.png" />
+    <Content Include="JH.png" />
+    <Content Include="JS.png" />
+    <Content Include="KC.png" />
+    <Content Include="KD.png" />
+    <Content Include="KH.png" />
+    <Content Include="KS.png" />
+    <Content Include="QC.png" />
+    <Content Include="QD.png" />
+    <Content Include="QH.png" />
+    <Content Include="QS.png" />
+    <Content Include="Resources\10C.png" />
+    <Content Include="Resources\10D.png" />
+    <Content Include="Resources\10H.png" />
+    <Content Include="Resources\10S.png" />
+    <Content Include="Resources\2C.png" />
+    <Content Include="Resources\2D.png" />
+    <Content Include="Resources\2H.png" />
+    <Content Include="Resources\2S.png" />
+    <Content Include="Resources\3C.png" />
+    <Content Include="Resources\3D.png" />
+    <Content Include="Resources\3H.png" />
+    <Content Include="Resources\3S.png" />
+    <Content Include="Resources\4C.png" />
+    <Content Include="Resources\4D.png" />
+    <Content Include="Resources\4H.png" />
+    <Content Include="Resources\4S.png" />
+    <Content Include="Resources\5C.png" />
+    <Content Include="Resources\5D.png" />
+    <Content Include="Resources\5H.png" />
+    <Content Include="Resources\5S.png" />
+    <Content Include="Resources\6C.png" />
+    <Content Include="Resources\6D.png" />
+    <Content Include="Resources\6H.png" />
+    <Content Include="Resources\6S.png" />
+    <Content Include="Resources\7C.png" />
+    <Content Include="Resources\7D.png" />
+    <Content Include="Resources\7H.png" />
+    <Content Include="Resources\7S.png" />
+    <Content Include="Resources\8C.png" />
+    <Content Include="Resources\8D.png" />
+    <Content Include="Resources\8H.png" />
+    <Content Include="Resources\8S.png" />
+    <Content Include="Resources\9C.png" />
+    <Content Include="Resources\9D.png" />
+    <Content Include="Resources\9H.png" />
+    <Content Include="Resources\9S.png" />
+    <Content Include="Resources\AC.png" />
+    <Content Include="Resources\AD.png" />
+    <Content Include="Resources\AH.png" />
+    <Content Include="Resources\AS.png" />
+    <Content Include="Resources\b1fv.png" />
+    <Content Include="Resources\greenfelt.jpg" />
+    <Content Include="Resources\JC.png" />
+    <Content Include="Resources\JD.png" />
+    <Content Include="Resources\JH.png" />
+    <Content Include="Resources\JS.png" />
+    <Content Include="Resources\KC.png" />
+    <Content Include="Resources\KD.png" />
+    <Content Include="Resources\KH.png" />
+    <Content Include="Resources\KS.png" />
+    <Content Include="Resources\QC.png" />
+    <Content Include="Resources\QD.png" />
+    <Content Include="Resources\QH.png" />
+    <Content Include="Resources\QS.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

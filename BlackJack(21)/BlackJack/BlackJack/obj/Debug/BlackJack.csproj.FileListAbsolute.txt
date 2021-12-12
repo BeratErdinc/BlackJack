@@ -1,0 +1,10 @@
+C:\Users\elaku\Desktop\BlackJack(21)\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\elaku\Desktop\BlackJack(21)\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\elaku\Desktop\BlackJack(21)\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\elaku\Desktop\BlackJack(21)\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.AssemblyReference.cache
+C:\Users\elaku\Desktop\BlackJack(21)\BlackJack\BlackJack\obj\Debug\BlackJack.Form1.resources
+C:\Users\elaku\Desktop\BlackJack(21)\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\elaku\Desktop\BlackJack(21)\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+C:\Users\elaku\Desktop\BlackJack(21)\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\elaku\Desktop\BlackJack(21)\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\elaku\Desktop\BlackJack(21)\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
